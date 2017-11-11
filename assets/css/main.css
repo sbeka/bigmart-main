@@ -1,0 +1,29 @@
+.navbar-default {
+    background: url(../img/head-bg.png) no-repeat;
+    padding: 10px 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: Calibri;
+    color: #ffffff;
+    font-weight:bold;
+    font-size: 110%;
+    padding: 5px 10px;
+    margin: 10px 0px 0 15px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FF8400;
+    background: #001738;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 10%;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 140px;
+}
