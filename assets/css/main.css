@@ -143,8 +143,15 @@ body {
 
 
 #payment {
-    height: 500px;
     background: url(../img/payment-bg.png) no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+}
+
+#payment img {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 53px 30px;
 }
