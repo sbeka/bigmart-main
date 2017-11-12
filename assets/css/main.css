@@ -2,8 +2,33 @@ body {
     font-family: Calibri;
 }
 
+.block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.block p {
+    text-align: center;
+    font-size: 130%;
+}
+
+.block .icons {
+    margin-top: 40px;
+}
+
+.block .icons img {
+    width: 100px;
+}
+
 .navbar-default {
-    background: url(../img/head-bg.png) no-repeat;
+    background: url(../img/head-bg.png) repeat-x;
     padding: 10px 0;
     margin-bottom: 0;
     border: none;
@@ -113,37 +138,16 @@ body {
 
 
 
+
 #about-us {
-    padding-top: 50px;
-    padding-bottom: 50px;
     background: #E2F5F5;
-}
-
-#about-us h1 {
-    margin: 0;
-    margin-bottom: 20px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#about-us p {
-    text-align: center;
-    font-size: 130%;
-}
-
-#about-us .icons {
-    margin-top: 40px;
-}
-
-#about-us .icons img {
-    width: 100px;
 }
 
 
 
 
 #payment {
-    background: url(../img/payment-bg.png) no-repeat;
+    background: url("../img/payment-bg.png") no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -154,4 +158,33 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding: 53px 30px;
+}
+
+
+
+
+
+
+
+#working {
+
+}
+
+#working .btn-auth {
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#working .btn-auth .btn {
+    font-size: 150%;
+    padding: 5px;
+}
+
+
+
+
+#footer {
+    height: 500px;
+    background: url("../img/footer-bg.png") no-repeat;
 }
